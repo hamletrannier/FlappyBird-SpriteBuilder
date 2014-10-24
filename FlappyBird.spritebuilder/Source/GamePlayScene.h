@@ -9,11 +9,23 @@
 #import "CCNode.h"
 #import "Character.h"
 
+
+
 typedef NS_ENUM(NSInteger, DrawingOrder) {
     DrawingOrderPipes,
     DrawingOrderGround,
     DrawingOrderHero
 };
+
+
+Character* character;
+CCPhysicsNode* PhysicsNode;
+
+
+Character = (Character*)[CCBReader load:@"Character"];
+[Physicnode]
+
+
 
 @interface GamePlayScene : CCNode <CCPhysicsCollisionDelegate>
 {
